@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f63781a4000d4031bcecff7428fd82a6, type: 3}
+  m_Name: ETEntityViewerSetting
+  m_EditorClassIdentifier: 
+  SceneTypeColor: {r: 0.28479028, g: 0.99215686, b: 0.05490193, a: 1}
+  ComponentColor: {r: 0, g: 0.7695224, b: 1, a: 0}
+  ChildColor: {r: 1, g: 1, b: 1, a: 1}
+  QuickFlags: []
+  FoldNodes:
+  - AOIManagerComponent_1934740723689652231
+  - BattleUnit_1934701518808743936
+  - BattleUnit_1934718080622067712
+  - BattleUnit_1934718303960367104
+  - BattleUnit_1934718389859713024
+  - BattleUnit_1934719386292125696
+  - BattleUnit_1934719334752518144
+  - BattleUnit_1934718355499974656
+  - BattleUnit_1934718235240890368
+  - BattleUnit_1934740775229259782
+  - Scene_401

@@ -1,0 +1,8 @@
+{"list":[
+{"_t":"SkillTestModel","_id":1001,"Group":1,"Model":"Skeleton_Blue","Name":"骷髅"},
+{"_t":"SkillTestModel","_id":1002,"Group":1,"Model":"Skeleton_Red","Name":"骷髅2"},
+{"_t":"SkillTestModel","_id":2001,"Group":2,"Model":"Skeleton_Blue","Name":"蓝色史莱姆"},
+{"_t":"SkillTestModel","_id":2002,"Group":2,"Model":"Skeleton_Red","Name":"红色史莱姆"},
+{"_t":"SkillTestModel","_id":2003,"Group":2,"Model":"Skeleton_Joker","Name":"史莱姆将军"},
+{"_t":"SkillTestModel","_id":2004,"Group":2,"Model":"Skeleton_King","Name":"史莱姆王"},
+]}

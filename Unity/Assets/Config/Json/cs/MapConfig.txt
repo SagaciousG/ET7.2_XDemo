@@ -1,0 +1,6 @@
+{"list":[
+{"_t":"MapConfig","_id":999,"Name":"技能测试场景","IsSecure":1,"SceneName":"build_scene","MonsterGroup":0,"BornPoint":"","BattleCameraPos":"0,10,0","BattleCameraRot":"60,40,0"},
+{"_t":"MapConfig","_id":1,"Name":"月亮村","IsSecure":1,"SceneName":"main_city","MonsterGroup":0,"BornPoint":"-35,6,-30","BattleCameraPos":"29.2,8.57,8","BattleCameraRot":"60,40,0"},
+{"_t":"MapConfig","_id":1001,"Name":"月亮村战斗场景","IsSecure":0,"SceneName":"main_city","MonsterGroup":0,"BornPoint":"","BattleCameraPos":"","BattleCameraRot":""},
+{"_t":"MapConfig","_id":2,"Name":"断崖","IsSecure":0,"SceneName":"main_city","MonsterGroup":1,"BornPoint":"","BattleCameraPos":"29.2,8.57,8","BattleCameraRot":"60,40,0"},
+]}

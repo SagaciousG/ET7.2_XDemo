@@ -1,0 +1,4 @@
+{"list":[
+{"_t":"GateWayConfig","_id":1,"Name":"去关外","Position":"-48.6,22,35","Rotation":"","Map":1,"Show":"gateway_1_2","ToGateWay":2},
+{"_t":"GateWayConfig","_id":2,"Name":"去城镇","Position":"5.5,0,0","Rotation":"","Map":2,"Show":"gateway_1_2","ToGateWay":1},
+]}

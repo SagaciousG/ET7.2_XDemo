@@ -1,0 +1,219 @@
+//角色在地图中操作
+syntax = "proto3";
+package ET;
+
+message BagItemArmsProto
+{
+  int32 Equipped = 1; 
+  int64 UID = 2; 
+}
+
+message BagItemProto
+{
+  int32 ID = 1; 
+  int64 Num = 2; 
+  int64 UID = 3; 
+}
+
+message CreateMyUnitAMessage // IActorMessage
+{
+  UnitProto Unit = 1; 
+}
+
+message CreateUnitsAMessage // IActorMessage
+{
+  repeated UnitProto Units = 2; 
+}
+
+message EnterBattleAMessage // IActorMessage
+{
+  int32 RpcId = 90; 
+  int32 Seed = 1; 
+}
+
+//ResponseType EquipDownArmsALResponse
+message EquipDownArmsALRequest // IUnitRequest
+{
+  int32 RpcId = 90; 
+  int64 UID = 2; 
+  int32 Profession = 3; 
+}
+
+message FindPathALMessage // IUnitMessage
+{
+  int32 RpcId = 90; 
+  Unity.Mathematics.float3 Position = 1; 
+}
+
+message EquipDownArmsALResponse // IUnitResponse
+{
+  int32 RpcId = 90; 
+  int32 Error = 91; 
+  string Message = 92; 
+}
+
+//ResponseType EquipUpArmsALResponse
+message EquipUpArmsALRequest // IUnitRequest
+{
+  int32 RpcId = 90; 
+  int64 UID = 2; 
+  int32 Profession = 3; 
+  int32 Hole = 4; 
+}
+
+message EquipmentProto
+{
+  int64 UID = 1; 
+  int32 EquipUp = 2; 
+  int32 ProfessionNum = 3; 
+  int32 Hole = 4; 
+}
+
+message FindPathResultAMessage // IActorMessage
+{
+  Unity.Mathematics.float3 Position = 1; 
+  repeated Unity.Mathematics.float3 Points = 2; 
+  int64 unitId = 3; 
+}
+
+message EquipUpArmsALResponse // IUnitResponse
+{
+  int32 RpcId = 90; 
+  int32 Error = 91; 
+  string Message = 92; 
+}
+
+//ResponseType GetInteractCodesALResponse
+message GetInteractCodesALRequest // IUnitRequest
+{
+  int32 RpcId = 90; 
+  int64 Unit = 2; 
+}
+
+message GetInteractCodesALResponse // IUnitResponse
+{
+  int32 RpcId = 90; 
+  int32 Error = 91; 
+  string Message = 92; 
+  repeated int32 Options = 2; 
+}
+
+//ResponseType InteractToResponse
+message InteractToRequest // IRequest
+{
+  int32 RpcId = 90; 
+  int64 From = 2; 
+  int64 To = 3; 
+  int32 Option = 4; 
+}
+
+message InteractToResponse // IResponse
+{
+  int32 RpcId = 90; 
+  int32 Error = 91; 
+  string Message = 92; 
+}
+
+//ResponseType LotteryALResponse
+message LotteryALRequest // IUnitRequest
+{
+  int32 RpcId = 90; 
+  int32 Count = 2; 
+  int32 Type = 3; 
+}
+
+message MeetMonsterAMessage // IActorMessage
+{
+  int32 RpcId = 90; 
+  int32 MonsterGroupId = 1; 
+}
+
+message LotteryALResponse // IUnitResponse
+{
+  int32 RpcId = 90; 
+  int32 Error = 91; 
+  string Message = 92; 
+  repeated int32 Result = 2; 
+}
+
+message ProfessionProto
+{
+  int32 Num = 1; 
+  int64 UID = 2; 
+}
+
+message RemoveUnitsAMessage // IActorMessage
+{
+  int32 RpcId = 90; 
+  repeated int64 Units = 2; 
+}
+
+message SkillUpdateAMessage // IActorMessage
+{
+  int32 RpcId = 90; 
+  repeated SkillProto Skills = 2; 
+}
+
+message TransferMapALMessage // IUnitMessage
+{
+  int32 RpcId = 90; 
+  int32 FromGateWay = 1; 
+}
+
+message UnitBagAMessage // IActorMessage
+{
+  int32 RpcId = 90; 
+  repeated BagItemProto Items = 2; 
+}
+
+message UnitBagArmsAMessage // IActorMessage
+{
+  int32 RpcId = 90; 
+  repeated BagItemArmsProto Arms = 2; 
+}
+
+message UnitDisconnectAMessage // IActorMessage
+{
+  int32 RpcId = 90; 
+  int64 UnitID = 2; 
+}
+
+message UnitEquipmentUpdateAMessage // IActorMessage
+{
+  int32 RpcId = 90; 
+  repeated EquipmentProto Equips = 2; 
+}
+
+message UnitNumericUpdateAMessage // IActorMessage
+{
+  int32 RpcId = 90; 
+  map<int32,int64> Numeric = 2; 
+}
+
+message UnitProfessionAMessage // IActorMessage
+{
+  int32 RpcId = 90; 
+  repeated ProfessionProto Professions = 2; 
+}
+
+//ResponseType UseItemALResponse
+message UseItemALRequest // IUnitRequest
+{
+  int32 RpcId = 90; 
+  int64 UID = 2; 
+  int64 Num = 3; 
+}
+
+message UseItemALResponse // IUnitResponse
+{
+  int32 RpcId = 90; 
+  int32 Error = 91; 
+  string Message = 92; 
+}
+
+message MapBuildTemplateAMessage // IActorMessage
+{
+  int32 RpcId = 90; 
+  string TemplateJson = 2; 
+}
+

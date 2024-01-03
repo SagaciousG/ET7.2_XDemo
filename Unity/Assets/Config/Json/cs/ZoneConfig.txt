@@ -1,0 +1,6 @@
+{"list":[
+{"_t":"ZoneConfig","_id":999,"ShowName":"战斗测试服","Hide":1},
+{"_t":"ZoneConfig","_id":1,"ShowName":"测试一","Hide":0},
+{"_t":"ZoneConfig","_id":2,"ShowName":"测试二","Hide":0},
+{"_t":"ZoneConfig","_id":3,"ShowName":"测试三","Hide":0},
+]}

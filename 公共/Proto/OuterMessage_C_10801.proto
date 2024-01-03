@@ -1,0 +1,114 @@
+//地图商店
+syntax = "proto3";
+package ET;
+
+//ResponseType AddOrUpdateTemplateALResponse
+message AddOrUpdateTemplateALRequest // IUnitRequest
+{
+  int32 RpcId = 90; 
+  int32 TemplateType = 2; 
+  string Json = 3; 
+}
+
+message AddOrUpdateTemplateALResponse // IUnitResponse
+{
+  int32 RpcId = 90; 
+  int32 Error = 91; 
+  string Message = 92; 
+}
+
+//ResponseType GetGridMapInfoALResponse
+message GetGridMapInfoALRequest // IUnitRequest
+{
+  int32 RpcId = 90; 
+  int32 Page = 2; 
+}
+
+message GetGridMapInfoALResponse // IUnitResponse
+{
+  int32 RpcId = 90; 
+  int32 Error = 91; 
+  string Message = 92; 
+  int32 StartIndex = 2; 
+  repeated GridMapProto Infos = 3; 
+  int32 MaxPage = 4; 
+}
+
+//ResponseType GetMyMapsALResponse
+message GetMyMapsALRequest // IUnitRequest
+{
+  int32 RpcId = 90; 
+  int32 Page = 2; 
+}
+
+message GetMyMapsALResponse // IUnitResponse
+{
+  int32 RpcId = 90; 
+  int32 Error = 91; 
+  string Message = 92; 
+  int32 StartIndex = 2; 
+  repeated GridMapProto Infos = 3; 
+  int32 MaxPage = 4; 
+}
+
+message GridMapProto
+{
+  int32 Size = 90; 
+  int64 UnitID = 2; 
+  string DataURL = 3; 
+  string Name = 4; 
+  string Desc = 5; 
+  string MD5 = 6; 
+  int64 MapID = 7; 
+}
+
+//ResponseType RemoveTemplateALResponse
+message RemoveTemplateALRequest // IUnitRequest
+{
+  int32 RpcId = 90; 
+  int64 TempID = 2; 
+}
+
+//ResponseType SaveMyMapALResponse
+message SaveMyMapALRequest // IUnitRequest
+{
+  int32 RpcId = 90; 
+  GridMapProto Map = 2; 
+}
+
+message SaveMyMapALResponse // IUnitResponse
+{
+  int32 RpcId = 90; 
+  int32 Error = 91; 
+  string Message = 92; 
+  string Url = 2; 
+}
+
+message SaveTemplateALResponse // IUnitResponse
+{
+  int32 RpcId = 90; 
+  int32 Error = 91; 
+  string Message = 92; 
+}
+
+message RemoveTemplateALResponse // IUnitResponse
+{
+  int32 RpcId = 90; 
+  int32 Error = 91; 
+  string Message = 92; 
+}
+
+//ResponseType UpdateTemplateDataALResponse
+message UpdateTemplateDataALRequest // IUnitRequest
+{
+  int32 RpcId = 90; 
+  repeated string Groups = 2; 
+}
+
+message UpdateTemplateDataALResponse // IUnitResponse
+{
+  int32 RpcId = 90; 
+  int32 Error = 91; 
+  string Message = 92; 
+}
+

@@ -1,0 +1,9 @@
+{"list":[
+{"_t":"OptionCodeConfig","_id":1,"Name":"使用","FieldName":"UseItem","Tips":"","Param":"","ShowCondition":0},
+{"_t":"OptionCodeConfig","_id":2,"Name":"装备","FieldName":"EquipUp","Tips":"","Param":"","ShowCondition":0},
+{"_t":"OptionCodeConfig","_id":3,"Name":"出售","FieldName":"SellOut","Tips":"","Param":"","ShowCondition":0},
+{"_t":"OptionCodeConfig","_id":4,"Name":"抽技能","FieldName":"LotterySkill","Tips":"","Param":"","ShowCondition":0},
+{"_t":"OptionCodeConfig","_id":5,"Name":"抽装备","FieldName":"LotteryEquip","Tips":"","Param":"","ShowCondition":0},
+{"_t":"OptionCodeConfig","_id":6,"Name":"卸下","FieldName":"EquipDown","Tips":"","Param":"","ShowCondition":2},
+{"_t":"OptionCodeConfig","_id":7,"Name":"挑战","FieldName":"Challenge","Tips":"","Param":"","ShowCondition":0},
+]}

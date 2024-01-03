@@ -1,0 +1,10 @@
+//登录到
+syntax = "proto3";
+package ET;
+
+message StartSceneChangeAMessage // IActorMessage
+{
+  int32 MapId = 1; 
+  int64 MapActorId = 2; 
+}
+

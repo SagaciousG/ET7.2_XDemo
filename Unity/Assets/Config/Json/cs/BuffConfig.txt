@@ -1,0 +1,3 @@
+{"list":[
+{"_t":"BuffConfig","_id":1,"Name":"普通攻击（物理）","Desc":"","Icon":"","Data":1},
+]}

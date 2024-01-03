@@ -1,0 +1,27 @@
+{
+    "name": "Unity.Mono",
+    "rootNamespace": "ET",
+    "references": [
+        "Unity.ThirdParty",
+        "Unity.Core",
+        "Unity.TextMeshPro",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "HybridCLR.Runtime",
+        "Unity.Mathematics",
+        "Exoa.TouchCameraPro.Scripts",
+        "Exoa.Commons.Scripts.Touch"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        "DOTween.dll",
+        "CommandLine.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

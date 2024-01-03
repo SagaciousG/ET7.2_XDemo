@@ -1,0 +1,14 @@
+{"list":[
+{"_t":"StringMapConfig","_id":1,"Group":0,"Key":0,"Val":"itemtypes_helmet"},
+{"_t":"StringMapConfig","_id":2,"Group":0,"Key":1,"Val":"itemtypes_pauldrons"},
+{"_t":"StringMapConfig","_id":3,"Group":0,"Key":2,"Val":"itemtypes_armor"},
+{"_t":"StringMapConfig","_id":4,"Group":0,"Key":3,"Val":"itemtypes_belt"},
+{"_t":"StringMapConfig","_id":5,"Group":0,"Key":4,"Val":"itemtypes_cape"},
+{"_t":"StringMapConfig","_id":6,"Group":0,"Key":5,"Val":"itemtypes_boots"},
+{"_t":"StringMapConfig","_id":7,"Group":0,"Key":6,"Val":"itemtypes_sword1h"},
+{"_t":"StringMapConfig","_id":8,"Group":0,"Key":7,"Val":"itemtypes_shield"},
+{"_t":"StringMapConfig","_id":9,"Group":1,"Key":3,"Val":"quality_green"},
+{"_t":"StringMapConfig","_id":10,"Group":1,"Key":4,"Val":"quality_blue"},
+{"_t":"StringMapConfig","_id":11,"Group":1,"Key":5,"Val":"quality_purple"},
+{"_t":"StringMapConfig","_id":12,"Group":1,"Key":6,"Val":"quality_red"},
+]}

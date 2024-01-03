@@ -1,0 +1,72 @@
+namespace ET.Client
+{
+	public static class UIType
+	{
+	    public const string Root = "Root";
+	    public const string UILogin = "UILogin";
+	    public const string UILobby = "UILobby";
+	    public const string UIHelp = "UIHelp";
+		public const string UITopBack = "UITopBack";
+		public const string UISelectRole = "UISelectRole";
+		public const string UICreateRole = "UICreateRole";
+		public const string UIHeader = "UIHeader";
+		public const string UIGM = "UIGM";
+		public const string UIGMBar = "UIGMBar";
+		public const string UIHeaderContainer = "UIHeaderContainer";
+		public const string UIBattleMain = "UIBattleMain";
+		public const string UIBattleHeader = "UIBattleHeader";
+		public const string UIBattleHeaderContainer = "UIBattleHeaderContainer";
+		public const string UITestLogin = "UITestLogin";
+		public const string UITestMain = "UITestMain";
+		public const string UIBattleRoundStart = "UIBattleRoundStart";
+		public const string UIClickBgClose = "UIClickBgClose";
+		public const string UITestLevelEntry = "UITestLevelEntry";
+		public const string UIPopTips = "UIPopTips";
+		public const string UIBattleTextContainer = "UIBattleTextContainer";
+		public const string UIBattleSelectSkill = "UIBattleSelectSkill";
+		public const string UIMain = "UIMain";
+		public const string UIBagItem = "UIBagItem";
+		public const string UIBag = "UIBag";
+		public const string UIEquipItem = "UIEquipItem";
+		public const string UIItemTips = "UIItemTips";
+		public const string UISkill = "UISkill";
+		public const string UITopCoinItem = "UITopCoinItem";
+		public const string UICoinBanner = "UICoinBanner";
+		public const string UILotterySkill = "UILotterySkill";
+		public const string UIDialogEx = "UIDialogEx";
+		public const string UITestLobby = "UITestLobby";
+		public const string UIItemPopup = "UIItemPopup";
+		public const string ServerListCell = "ServerListCell";
+		public const string ServerListLoginedCell = "ServerListLoginedCell";
+		public const string SelectRoleCell = "SelectRoleCell";
+		public const string UILotteryEquip = "UILotteryEquip";
+		public const string UIEquipAttrCont = "UIEquipAttrCont";
+		public const string UIAttrItem = "UIAttrItem";
+		public const string UIMapStore = "UIMapStore";
+		public const string UIBuildScene = "UIBuildScene";
+		public const string UINPCAttr = "UINPCAttr";
+		public const string UIGroundAttr = "UIGroundAttr";
+		public const string UIBuildAttrPanel = "UIBuildAttrPanel";
+		public const string UIBuildMapPropertyTab = "UIBuildMapPropertyTab";
+		public const string UIDialogWithInput = "UIDialogWithInput";
+		public const string UIBuildMapMenu = "UIBuildMapMenu";
+		public const string UIBuildMapPlayerTab = "UIBuildMapPlayerTab";
+		public const string UIBuildMapSkillTab = "UIBuildMapSkillTab";
+		public const string UIBuildMapItemTab = "UIBuildMapItemTab";
+		public const string UIBuildMapAITab = "UIBuildMapAITab";
+		public const string UIMapStoreCellRender = "UIMapStoreCellRender";
+		public const string UIBuildMapGlobeTab = "UIBuildMapGlobeTab";
+		public const string UIMyMapEntry = "UIMyMapEntry";
+		public const string UIGridGameMain = "UIGridGameMain";
+		public const string UIBuildMapDynamicRoleTab = "UIBuildMapDynamicRoleTab";
+		public const string UIDecorationAttr = "UIDecorationAttr";
+		public const string UIBuildMapStaticRoleTab = "UIBuildMapStaticRoleTab";
+		public const string UITemplateSelector = "UITemplateSelector";
+		public const string UITemplateTools = "UITemplateTools";
+		public const string UITabDemo = "UITabDemo";
+		public const string UITabDemo1 = "UITabDemo1";
+		public const string UITabDemo1_3 = "UITabDemo1_3";
+		public const string UITabDemo1_1 = "UITabDemo1_1";
+		public const string UITabDemo1_2 = "UITabDemo1_2";
+	}
+}

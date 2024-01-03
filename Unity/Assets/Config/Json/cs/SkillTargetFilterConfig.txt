@@ -1,0 +1,5 @@
+{"list":[
+{"_t":"SkillTargetFilterConfig","_id":1,"Desc":"指定一个敌方目标","Faction":4,"TargetRole":31,"TargetStatue":1,"SelectType":0,"TargetCount":0},
+{"_t":"SkillTargetFilterConfig","_id":2,"Desc":"随机不重复选择三个目标","Faction":4,"TargetRole":31,"TargetStatue":1,"SelectType":0,"TargetCount":2},
+{"_t":"SkillTargetFilterConfig","_id":3,"Desc":"自己","Faction":1,"TargetRole":2,"TargetStatue":1,"SelectType":0,"TargetCount":0},
+]}

@@ -1,0 +1,4 @@
+{"list":[
+{"_t":"DamageModelConfig","_id":1,"DamageType":1,"Equation":1},
+{"_t":"DamageModelConfig","_id":2,"DamageType":2,"Equation":2},
+]}

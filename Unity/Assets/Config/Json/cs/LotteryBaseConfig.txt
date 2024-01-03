@@ -1,0 +1,4 @@
+{"list":[
+{"_t":"LotteryBaseConfig","_id":1,"Type":0,"Price":100,"Price10":900,"DropPool":1},
+{"_t":"LotteryBaseConfig","_id":2,"Type":1,"Price":100,"Price10":900,"DropPool":2},
+]}

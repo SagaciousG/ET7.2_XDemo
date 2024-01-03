@@ -1,0 +1,12 @@
+{"list":[
+{"_t":"DropPoolConfig","_id":1,"Group":1,"Item":1001001,"Num":1,"Weight":100},
+{"_t":"DropPoolConfig","_id":2,"Group":1,"Item":1001002,"Num":1,"Weight":100},
+{"_t":"DropPoolConfig","_id":3,"Group":1,"Item":1001003,"Num":1,"Weight":100},
+{"_t":"DropPoolConfig","_id":4,"Group":1,"Item":1001004,"Num":1,"Weight":100},
+{"_t":"DropPoolConfig","_id":5,"Group":1,"Item":1001005,"Num":1,"Weight":100},
+{"_t":"DropPoolConfig","_id":2001,"Group":2,"Item":2001001,"Num":1,"Weight":100},
+{"_t":"DropPoolConfig","_id":2002,"Group":2,"Item":2001002,"Num":1,"Weight":100},
+{"_t":"DropPoolConfig","_id":2003,"Group":2,"Item":2001003,"Num":1,"Weight":100},
+{"_t":"DropPoolConfig","_id":2004,"Group":2,"Item":2001004,"Num":1,"Weight":100},
+{"_t":"DropPoolConfig","_id":2005,"Group":2,"Item":2001005,"Num":1,"Weight":100},
+]}

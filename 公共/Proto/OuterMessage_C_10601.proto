@@ -1,0 +1,26 @@
+//技能相关
+syntax = "proto3";
+package ET;
+
+message SkillProto
+{
+  int32 ID = 1; 
+  int32 Level = 2; 
+}
+
+//ResponseType UseSkillAResponse
+message UseSkillARequest // IActorRequest
+{
+  int32 RpcId = 90; 
+  SkillProto Skill = 1; 
+  int64 Target = 2; 
+  int64 Caster = 3; 
+}
+
+message UseSkillAResponse // IActorResponse
+{
+  int32 RpcId = 90; 
+  int32 Error = 91; 
+  string Message = 92; 
+}
+

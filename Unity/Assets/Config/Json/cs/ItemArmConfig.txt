@@ -1,0 +1,11 @@
+{"list":[
+{"_t":"ItemArmConfig","_id":1001,"Part":0,"BaseWord":"7,1,4","BaseWordVal":"5,5,5","SpecialWord":"1101","SpecialWordArgs":"1","Outfit":0},
+{"_t":"ItemArmConfig","_id":1002,"Part":1,"BaseWord":"11,1,3","BaseWordVal":"5,5,5","SpecialWord":"","SpecialWordArgs":"","Outfit":0},
+{"_t":"ItemArmConfig","_id":1003,"Part":2,"BaseWord":"16,13,11","BaseWordVal":"5,5,5","SpecialWord":"","SpecialWordArgs":"","Outfit":0},
+{"_t":"ItemArmConfig","_id":1004,"Part":3,"BaseWord":"16,8,3","BaseWordVal":"5,5,5","SpecialWord":"","SpecialWordArgs":"","Outfit":0},
+{"_t":"ItemArmConfig","_id":1005,"Part":4,"BaseWord":"11,4,10","BaseWordVal":"5,5,5","SpecialWord":"","SpecialWordArgs":"","Outfit":0},
+{"_t":"ItemArmConfig","_id":1006,"Part":5,"BaseWord":"7,1,4","BaseWordVal":"5,5,5","SpecialWord":"","SpecialWordArgs":"","Outfit":0},
+{"_t":"ItemArmConfig","_id":1007,"Part":6,"BaseWord":"11,1,3","BaseWordVal":"5,5,5","SpecialWord":"","SpecialWordArgs":"","Outfit":0},
+{"_t":"ItemArmConfig","_id":1008,"Part":7,"BaseWord":"16,13,11","BaseWordVal":"5,5,5","SpecialWord":"","SpecialWordArgs":"","Outfit":0},
+{"_t":"ItemArmConfig","_id":1009,"Part":8,"BaseWord":"16,8,3","BaseWordVal":"5,5,5","SpecialWord":"","SpecialWordArgs":"","Outfit":0},
+]}

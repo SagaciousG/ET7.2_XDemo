@@ -1,0 +1,31 @@
+{
+    "name": "Unity.ModelView.Codes",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Mono",
+        "Unity.ThirdParty",
+        "Unity.Core",
+        "Unity.Model.Codes",
+        "Unity.Mathematics",
+        "Unity.TextMeshPro",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Exoa.TouchCameraPro.Scripts",
+        "AstarPathfindingProject"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "DOTween.dll",
+        "MongoDB.Bson.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "ENABLE_CODES"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

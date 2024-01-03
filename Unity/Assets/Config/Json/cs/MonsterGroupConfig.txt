@@ -1,0 +1,8 @@
+{"list":[
+{"_t":"MonsterGroupConfig","_id":1,"Group":1,"Weight":200,"Pos":"101|102|103|104","MonsterId":"101|102|101|102"},
+{"_t":"MonsterGroupConfig","_id":2,"Group":1,"Weight":200,"Pos":"101|103|105|108|110","MonsterId":"101|102|101|102|102"},
+{"_t":"MonsterGroupConfig","_id":3,"Group":1,"Weight":200,"Pos":"101|102|103|105|108|109|110","MonsterId":"101|102|101|102|102|102|101"},
+{"_t":"MonsterGroupConfig","_id":4,"Group":1,"Weight":50,"Pos":"101|103|105|108|109","MonsterId":"101|102|103|102|102"},
+{"_t":"MonsterGroupConfig","_id":5,"Group":1,"Weight":50,"Pos":"101|102|103|104|105|108","MonsterId":"101|102|102|101|102|103"},
+{"_t":"MonsterGroupConfig","_id":6,"Group":1,"Weight":10,"Pos":"107|108|109","MonsterId":"103|104|103"},
+]}

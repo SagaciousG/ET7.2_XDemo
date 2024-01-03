@@ -1,0 +1,38 @@
+[USING]
+
+namespace ET.Client
+{
+    [UIEvent(UIType.[NAME])]
+    [FriendOf(typeof([NAME]Component))]
+    public class [NAME]Event: AUIEvent
+    {
+        public override async ETTask OnAwake(UI ui)
+        {
+            var self = ([NAME]Component)ui.Component;
+            var rc = ui.GameObject.GetComponent<UIReferenceCollector>();
+[INIT]  
+            await SubAwake(self);
+            self.OnAwake();
+        }
+     
+        private async ETTask SubAwake([NAME]Component self)
+        {
+[SUB_AWAKE]
+        }
+     			
+        public override void OnCreate(UI ui)
+        {
+            (([NAME]Component)ui.Component).OnCreate();
+        }
+
+        public override void SetData(UI ui, params object[] args)
+        {
+            (([NAME]Component)ui.Component).SetData(args);
+        }
+
+        public override void OnRemove(UI ui)
+        {
+            (([NAME]Component)ui.Component).OnRemove();
+        }
+    }
+}

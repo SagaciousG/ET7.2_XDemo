@@ -1,0 +1,8 @@
+{"list":[
+{"_t":"GMConfig","_id":1,"Code":"AddRobot","title":"添加机器人","Desc":"添加一个机器人","ParamType1":0,"ParamTitle1":"","ParamType2":0,"ParamTitle2":"","ParamType3":0,"ParamTitle3":""},
+{"_t":"GMConfig","_id":2,"Code":"ClearDB","title":"清库","Desc":"清除数据库","ParamType1":1,"ParamTitle1":"","ParamType2":0,"ParamTitle2":"","ParamType3":0,"ParamTitle3":""},
+{"_t":"GMConfig","_id":3,"Code":"ReloadSkill","title":"加载技能","Desc":"重新加载技能配置，技能ID为0是加载全部","ParamType1":0,"ParamTitle1":"技能ID","ParamType2":0,"ParamTitle2":"","ParamType3":0,"ParamTitle3":""},
+{"_t":"GMConfig","_id":4,"Code":"ReloadBuff","title":"重载Buff","Desc":"","ParamType1":0,"ParamTitle1":"BuffID","ParamType2":0,"ParamTitle2":"","ParamType3":0,"ParamTitle3":""},
+{"_t":"GMConfig","_id":5,"Code":"GetItem","title":"获得物品","Desc":"","ParamType1":0,"ParamTitle1":"物品ID","ParamType2":0,"ParamTitle2":"数量","ParamType3":0,"ParamTitle3":""},
+{"_t":"GMConfig","_id":6,"Code":"ClearBag","title":"清空背包","Desc":"","ParamType1":0,"ParamTitle1":"物品类型","ParamType2":0,"ParamTitle2":"","ParamType3":0,"ParamTitle3":""},
+]}

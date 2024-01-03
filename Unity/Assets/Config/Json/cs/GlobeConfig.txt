@@ -1,0 +1,5 @@
+{"list":[
+{"_t":"GlobeConfig","_id":1,"FloatValue":0,"IntValue":2,"StringValue":"","Note":"初始能量"},
+{"_t":"GlobeConfig","_id":2,"FloatValue":0,"IntValue":0,"StringValue":"3,1|5,1|7,1|9,1|11,1|13,1|14,1|15,1","Note":"在第N个回合增长N个能量上限"},
+{"_t":"GlobeConfig","_id":3,"FloatValue":0,"IntValue":100,"StringValue":"","Note":"每级增加技能点"},
+]}

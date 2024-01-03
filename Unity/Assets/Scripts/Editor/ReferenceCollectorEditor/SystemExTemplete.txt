@@ -1,0 +1,25 @@
+
+namespace ET.Client
+{
+    [FriendOf(typeof([NAME]Component))]
+	public static class [NAME]ComponentSystem
+	{
+        public static void OnAwake(this [NAME]Component self)
+        {
+        }
+
+        public static void OnCreate(this [NAME]Component self)
+        {
+            
+        }
+        
+        public static void SetData(this [NAME]Component self, params object[] args)
+        {
+        }
+        
+        public static void OnRemove(this [NAME]Component self)
+        {
+            
+        }
+	}
+}

@@ -1,0 +1,38 @@
+syntax = "proto3";
+package ET;
+
+//ResponseType G2M_LoginInMapAResponse
+message G2M_LoginInMapARequest // IActorRequest
+{
+  int32 RpcId = 90; 
+  SimpleUnit Unit = 1; 
+  int64 GateSessionActorID = 2; 
+}
+
+message G2M_LoginInMapAResponse // IActorResponse
+{
+  int32 RpcId = 90; 
+  int32 Error = 91; 
+  string Message = 92; 
+}
+
+//ResponseType G2M_LoginRobotToMapAResponse
+message G2M_LoginRobotToMapARequest // IActorRequest
+{
+  int32 RpcId = 90; 
+  SimpleUnit Robot = 2; 
+}
+
+message G2M_LoginRobotToMapAResponse // IActorResponse
+{
+  int32 RpcId = 90; 
+  int32 Error = 91; 
+  string Message = 92; 
+}
+
+message G2M_RemoveUnitAMessage // IActorMessage
+{
+  int32 RpcId = 90; 
+  int64 UnitId = 1; 
+}
+

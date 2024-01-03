@@ -1,0 +1,41 @@
+//机器人
+syntax = "proto3";
+package ET;
+
+//ResponseType GetAllRobotResponse
+message GetAllRobotRequest // IRequest
+{
+  int32 RpcId = 90; 
+  int32 Error = 91; 
+  string Message = 92; 
+}
+
+message GetAllRobotResponse // IResponse
+{
+  int32 RpcId = 90; 
+  int32 Error = 91; 
+  string Message = 92; 
+  repeated RobotInfo AllRobot = 2; 
+}
+
+//ResponseType LoginRobotResponse
+message LoginRobotRequest // IRequest
+{
+  int32 RpcId = 90; 
+  int64 Account = 2; // 0=随机登录，-1=新建一个
+}
+
+message LoginRobotResponse // IResponse
+{
+  int32 RpcId = 90; 
+  int32 Error = 91; 
+  string Message = 92; 
+}
+
+message RobotInfo
+{
+  int32 Online = 1; 
+  int64 Account = 2; 
+  string Name = 3; 
+}
+

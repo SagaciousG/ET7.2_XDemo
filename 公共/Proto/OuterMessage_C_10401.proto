@@ -1,0 +1,105 @@
+//战斗
+syntax = "proto3";
+package ET;
+
+message BattleBroadcastStateAMessage // IActorMessage
+{
+  int32 RpcId = 90; 
+  map<int64,BattleUnitState> Units = 1; 
+}
+
+message BattleCommandInput
+{
+  int64 Target = 1; 
+  int32 CommandType = 2; // 使用技能         防御         逃跑         保护         使用道具
+  repeated int32 Params = 3; 
+}
+
+message BattleCommandResultAMessage // IActorMessage
+{
+  int32 RpcId = 90; 
+}
+
+message BattleCommandResult
+{
+  BattleCommandInput Input = 1; 
+  int64 Director = 2; 
+}
+
+message BattleCreateMonsterAMessage // IActorMessage
+{
+  int32 RpcId = 90; 
+  repeated BattleMonsterInfo Monsters = 1; 
+}
+
+message BattleCreateUnitAMessage // IActorMessage
+{
+  int32 RpcId = 90; 
+  repeated BattleUnitProto Units = 2; 
+}
+
+message BattleMonsterInfo
+{
+  int64 ID = 1; 
+  int32 Pos = 2; 
+  int32 CfgID = 3; 
+}
+
+message BattleReadyALMessage // IBattleMessage
+{
+  int32 RpcId = 90; 
+  int64 UnitId = 1; 
+}
+
+message BattleRoundResultAMessage // IActorMessage
+{
+  int32 RpcId = 90; 
+  repeated BattleCommandResult Results = 1; 
+  int32 Round = 3; 
+}
+
+message BattleRoundStartAMessage // IActorMessage
+{
+  int32 RpcId = 90; 
+  int32 Round = 1; 
+}
+
+message BattleRoundTimerOutAMessage // IActorMessage
+{
+  int32 RpcId = 90; 
+}
+
+//ResponseType BattleUnitCommandALResponse
+message BattleUnitCommandALRequest // IBattleRequest
+{
+  int32 RpcId = 90; 
+  repeated BattleCommandInput Input = 1; // 0=UseSkill,1=Defense,2=Escape,3=Protect
+  int64 Director = 3; 
+}
+
+message BattleUnitCommandALResponse // IBattleResponse
+{
+  int32 RpcId = 90; 
+  int32 Error = 91; 
+  string Message = 92; 
+}
+
+message BattleUnitProto
+{
+  int64 Id = 90; 
+  int32 Pos = 2; 
+  string Name = 3; 
+  int32 UnitShow = 4; 
+  int32 Level = 5; 
+  map<int32,int64> Numeric = 6; 
+  repeated SkillProto Skill = 7; 
+  int32 UnitType = 8; 
+  int32 Map = 9; 
+}
+
+message BattleUnitState
+{
+  int64 UnitId = 1; 
+  int32 Ready = 2; 
+}
+

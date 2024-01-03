@@ -1,0 +1,96 @@
+//战斗测试
+syntax = "proto3";
+package ET;
+
+//ResponseType TestAddSkillALResponse
+message TestAddSkillALRequest // IUnitRequest
+{
+  int32 RpcId = 90; 
+  int64 UnitID = 2; 
+  SkillProto Skill = 3; 
+}
+
+message TestAddSkillALResponse // IUnitResponse
+{
+  int32 RpcId = 90; 
+  int32 Error = 91; 
+  string Message = 92; 
+}
+
+//ResponseType TestFightWithDummyALResponse
+message TestFightWithDummyALRequest // IUnitRequest
+{
+  int32 RpcId = 90; 
+}
+
+message TestFightWithDummyALResponse // IUnitResponse
+{
+  int32 RpcId = 90; 
+  int32 Error = 91; 
+  string Message = 92; 
+}
+
+//ResponseType TestRemoveSkillALResponse
+message TestRemoveSkillALRequest // IUnitRequest
+{
+  int32 RpcId = 90; 
+  int64 UnitID = 2; 
+  int32 SkillID = 3; 
+}
+
+message TestRemoveSkillALResponse // IUnitResponse
+{
+  int32 RpcId = 90; 
+  int32 Error = 91; 
+  string Message = 92; 
+}
+
+//ResponseType TestRemoveUnitALResponse
+message TestRemoveUnitALRequest // IUnitRequest
+{
+  int32 RpcId = 90; 
+  int64 UnitID = 2; 
+}
+
+message TestRemoveUnitALResponse // IUnitResponse
+{
+  int32 RpcId = 90; 
+  int32 Error = 91; 
+  string Message = 92; 
+}
+
+message TestUnitInfo
+{
+  map<int32,int64> Numeric = 1; 
+  repeated SkillProto Skills = 2; 
+}
+
+//ResponseType TestUpdateNumericALResponse
+message TestUpdateNumericALRequest // IUnitRequest
+{
+  int32 RpcId = 90; 
+  int64 UnitID = 2; 
+  map<int32,int64> Numeric = 3; 
+}
+
+//ResponseType TestUpdateOrCreateUnitALResponse
+message TestUpdateOrCreateUnitALRequest // IUnitRequest
+{
+  int32 RpcId = 90; 
+  BattleUnitProto Unit = 2; 
+}
+
+message TestUpdateOrCreateUnitALResponse // IUnitResponse
+{
+  int32 RpcId = 90; 
+  int32 Error = 91; 
+  string Message = 92; 
+}
+
+message TestUpdateNumericALResponse // IUnitResponse
+{
+  int32 RpcId = 90; 
+  int32 Error = 91; 
+  string Message = 92; 
+}
+
